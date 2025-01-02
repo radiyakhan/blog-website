@@ -118,7 +118,7 @@ const FoodItems = () => {
      <div className="flex flex-wrap justify-center">
      {products.map((items) => {
         return (
-         <section className="text-gray-600 body-font">
+         <section key={items.id} className="text-gray-600 body-font">
             <div className="container px-5 pb-24 mx-auto">
               <div className="-m-4">
                 <div className="p-4 w-80">
