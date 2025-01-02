@@ -72,8 +72,8 @@ const products: Product[] = [
   },
   {
     id: 11,
-    name: "BBQ",
-    description: "Our BBQ offers a mouthwatering experience with perfectly grilled meats, infused with smoky flavors and tender juiciness",
+    name: "Shashlik",
+    description: "Our shashlik offers a mouthwatering experience with perfectly grilled meats, infused with smoky flavors and tender juiciness",
     image: "/bbq.jpg",
   },
   {
