@@ -9,8 +9,9 @@ const page = () => {
       <section className="text-gray-600 body-font relative items-center">
         <div className="container px-4 flex">
           <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:mx-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+            <form action="https://formspree.io/f/mdkkpaoe" method="POST">
             <div className="relative mb-4">
-              <label htmlFor="email" className="leading-7 text-sm text-black">
+              <label htmlFor="name" className="leading-7 text-sm text-black">
                 Name
               </label>
               <input
@@ -51,6 +52,7 @@ const page = () => {
             <button className="text-white bg-myred2 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
               Send yor Message
             </button>
+            </form>
           </div>
         </div>
       </section>
