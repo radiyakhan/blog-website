@@ -1,6 +1,7 @@
 import React from 'react'
 import products from '../../../../Data/data';
 import Image from 'next/image';
+import Comments from '@/components/comment';
 interface Paramst {
     params: {
         id: string;
@@ -35,7 +36,7 @@ interface Paramst {
                {find?.description2}
               </p>
               <div className="flex justify-center">
-                
+                <Comments/>
               </div>
             </div>
           </div>
